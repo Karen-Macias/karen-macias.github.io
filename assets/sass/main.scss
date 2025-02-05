@@ -36,6 +36,7 @@
 		@include color-section($p);
 		@include color-table($p);
 		@include color-spotlight($p);
+		@include color-spotlightblock($p);
 	}
 
 // Base.
@@ -60,6 +61,7 @@
 	@import 'components/features';
 	@import 'components/statistics';
 	@import 'components/spotlight';
+	@import 'components/spotlightblock';
 
 // Layout.
 
