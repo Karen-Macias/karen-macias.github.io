@@ -4,6 +4,7 @@
 		@include vendor('display', 'flex');
 		@include vendor('align-items', 'center');
 		margin: 0 0 _size(element-margin) 0;
+		text-align: justify; /* Justify text */
 
 		.content {
 			@include vendor('flex', '1');
@@ -22,8 +23,9 @@
 		.image {
 			display: inline-block;
 			margin-left: 4em;
+			margin-right: 4em; /* Added right margin for spacing */
 			padding: 0.65em;
-			
+			order: = -1;
 			border: solid 1px;
 
 			img {
@@ -40,6 +42,7 @@
 			.content {
 				@include vendor('flex', '0 1 auto');
 				width: 100%;
+				text-align: justify;
 
 				header {
 					&.major {
