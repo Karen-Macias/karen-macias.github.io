@@ -3102,13 +3102,13 @@ input, select, textarea {
 			display: inline-block;
 			margin-left: 4em;
 			padding: 0.65em;
-			border-radius: 100%;
+			
 			border: solid 1px;
 		}
 
 			.spotlightblock .image img {
 				display: block;
-				border-radius: 100%;
+				
 				width: 16em;
 			}
 
