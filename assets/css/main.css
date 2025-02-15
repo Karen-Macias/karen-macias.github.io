@@ -3081,6 +3081,7 @@ input, select, textarea {
 		-ms-align-items: center;
 		align-items: center;
 		margin: 0 0 2em 0;
+		text-align: justify;
 	}
 
 		.spotlightblock .content {
@@ -3101,9 +3102,11 @@ input, select, textarea {
 		.spotlightblock .image {
 			display: inline-block;
 			margin-left: 4em;
+			margin-right: 4em; /* Added right margin for spacing */
 			padding: 0.65em;
 			
 			border: solid 1px;
+			order: -1;
 		}
 
 			.spotlightblock .image img {
@@ -3128,6 +3131,7 @@ input, select, textarea {
 					-ms-flex: 0 1 auto;
 					flex: 0 1 auto;
 					width: 100%;
+					text-align: justify;
 				}
 
 					.spotlightblock .content header.major h2:after {
